@@ -1,0 +1,43 @@
+/* PC */
+@media (min-width: 1024px) {
+
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+
+}
+
+/* Mobile */
+@media (max-width: 740px) {
+    #header {
+        width: 170%;
+    }
+    .tow {
+        width: 170%;
+    }
+    .all {
+        width: 125%;
+        margin-left: 26px;
+    }
+    .layout-sub {
+        display: none;
+    }
+    .total {
+        padding-left: 0px;
+    }
+    .cin {
+        display: none;
+    }
+    .box-content input {
+        width: 260%;
+    }
+    .submit {
+        padding-right: 0px;
+    }
+    #footer {
+        width: 170%;
+        padding: 0 32px;
+    }
+
+}
